@@ -1,0 +1,36 @@
+#projects {
+    padding-top: 3.5rem;
+
+    img {
+        width: 25rem;
+
+    }
+}
+
+#project {
+    box-shadow: 0.2rem 0.2rem 0.5rem #555;
+    margin: 1.2rem 0.3rem;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-shadow: 0.1rem 0.1rem 0.5rem #555;
+
+    h4 {
+        font-weight: bold;
+    }
+}
+
+.btn-secondary {
+    background-color: rgb(26, 25, 108);
+    border-color: rgb(23, 22, 99);
+
+    &:hover {
+        background-color: rgb(36, 34, 154);
+        border-color: rgb(37, 36, 130);
+    }
+
+}
+
+.jumbotron {
+    margin: 0;
+}
