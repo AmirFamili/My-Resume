@@ -6,11 +6,13 @@ import ShowLogo from "./components/ShowLogo";
 import Footer from "./components/Footer";
 import FabBtn from "./components/FabBtn";
 import './styles/App.scss';
+import PreLoader from "./components/Preloader";
 
 
 function App() {
   return (
     <div className='app'>
+      <PreLoader/>
       <Navbar />
       <Home />
       <div id="after-home" className="bg-white" >
